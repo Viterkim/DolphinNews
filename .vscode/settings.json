@@ -1,0 +1,11 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "isAsync": true,
+                "cmd": "cd D:/Downloads/apache-tomcat-8.5.33-windows-x64/apache-tomcat-8.5.33/webapps/ROOT/WEB-INF/classes; javac -cp .;D:/Downloads/apache-tomcat-8.5.33-windows-x64/apache-tomcat-8.5.33/lib/servlet-api.jar HelloServlet.java"
+            },
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+div#topBar {
+    margin-left: 150px;
+    background-color: #4285F4;
+    margin-right: 150px;
+}
+div#bodyData {
+    margin-left: 150px;
+    background-color: rgb(226, 243, 247);
+    margin-right: 150px;
+}
+.headerName {
+    font-family: verdana;
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 10px;
+    color: white
+}
+img#dolphinImg {
+    border: 1px solid white;
+}
+.delimiter {
+    padding-left: 3px;
+    padding-right: 3px;
+    color: white;
+}
+.headerText {
+    color: white;
+}
+.login {
+    padding-left: 1120px;
+}
+
+td.newsNumber {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 12
+}

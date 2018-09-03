@@ -1,0 +1,36 @@
+<%  
+                            ArrayList list = ${requestScope.list};
+                            /*
+
+                            ArrayList<String> list = (ArrayList<String>) request.getAttribute("list");
+                            */
+                            if (list != null) {
+                                for (String s : list) {
+                                    out.print("<tr>");
+                                    if (s != null) {
+                                        out.print("<td class=\"newsNumber\">" + s + "</td>");
+                                        out.print("<td>Hello from jspPrint</td>");
+                                    } else {
+                                        out.print("<td>s is null...</td>");
+                                    }
+                                    out.print("</tr>");
+                                }
+                            } else {
+                                out.print("<tr><td>List is null...</td></tr>");
+                            }
+                        %>
+
+
+
+
+        <%@ page import="java.util.ArrayList" %>
+
+
+
+        <jsp:include page="/sayhello" flush="true" />
+
+
+
+
+<td class="newsNumber">1. </td>
+                            <td><img height="10" width="10" src="./assets/triangle.png" /></td>
